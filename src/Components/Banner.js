@@ -1,19 +1,16 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faGithub, faLinkedin,  faWhatsapp, } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faGithub, faLinkedin, faWhatsapp, } from '@fortawesome/free-brands-svg-icons';
 import { faFaceSmile } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 const Banner = () => {
     return (
         <div id='Home'>
             <div className='sattu'>
-                
                 <div className=' d-flex justify-content-evenly align-items-center section  '>
                     <div className='d-flex justify-content-center '>
                         <div className='ms-4'>
-
                             <p className='hello'>Hello I'm <FontAwesomeIcon icon={faFaceSmile} /></p>
                             <h2 className='mynames'>SATYASHIL MAGRE</h2>
                             <h2 className='job'>
@@ -49,9 +46,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            
         </div>
     );
 }
-
 export default Banner;

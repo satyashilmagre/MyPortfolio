@@ -1,18 +1,13 @@
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMedapps } from '@fortawesome/free-brands-svg-icons';
-
 const Navbar = () => {
     return (
         <div>
              <nav class="navbar navbar-expand-xl  responivenav ">
                     <div class="container-fluid ">
                         <p class="navbar-brand ms-2  mt-2 myname" href="#"><span className='myname'>
-                        {/* <FontAwesomeIcon icon ={faMedapps} /> */}
-                        {/* <FontAwesomeIcon icon="fa-brands fa-medapps" /> */}
                         <FontAwesomeIcon icon={faMedapps} fade size="" style={{ color: "#04e6f6", }} className='me-2' />
-                        {/* <FontAwesomeIconcon icon={faMedapps } fade size="" style={{ color: "#04e6f6", }} className='me-2' /> */}
                         Satyashil</span></p>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -44,5 +39,4 @@ const Navbar = () => {
         </div>
     );
 }
-
 export default Navbar;
