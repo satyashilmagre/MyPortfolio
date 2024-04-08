@@ -5,13 +5,14 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <div className='sectiontwo ' id='Aboutus'>
-                <div className='d-flex justify-content-evenly flex-wrap'>
-                    <div>
-                        <img className='laptopimage' src='image/boys.png' alt='boy' />
+            <div className='container sectiontwo ' id='Aboutus'>
+            <h2 className="my-3 text-center">About <span>Me</span></h2>
+
+                <div className='d-flex flex-wrap'>
+                    <div className='col-xl-6 col-sm-12 col-md-6'>
+                        <img className='img-fluid ' src='image/boys.png' alt='boy' />
                     </div>
-                    <div className='aboutme'>
-                        <h2 className="mb-4">About <span>Me</span></h2>
+                    <div className='col-xl-6 col-sm-12 col-md-6 aboutme'>
                         <p>Hello, My name is Satyashil Magre and I'm from Aurangabad MH. I'm a 23 year old. I graduated in a Bachelor of Computer Science
                             from Dr. Babasaheb Ambedkar Marathwada University Aurangabad. Recently, I'm Completed an Master of Computer Application MCA from .Dr. Babasaheb Ambedkar Marathwada
                             University Aurangabad. My technical skills are in HTML, CSS, Bootstrap, JQuery, and JavaScript, and also familiar with React JS.

@@ -3,10 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 const Education = () => {
     return (
-        <div className='d-flex justify-content-evenly flex-wrap  w-100 technical' id='Experience'>
-            <div className='mb-4 tech' >
-                <h3 className='mb-3 educolor'>Education <FontAwesomeIcon icon={faGraduationCap} /></h3>
-                <div className='education'>
+        <div className='container' id='Experience'>
+            {/* d-flex justify-content-evenly flex-wrap  w-100 technical */}
+           <div className='row'>
+           <div className='col-xl-6 col-md-6 col-sm-12 mt-2'>
+                <h3 className=' educolor'>Education <FontAwesomeIcon icon={faGraduationCap} /></h3>
+                <div className='mb-2 education'>
                     <h6> <span className="clgname">MCA</span> From <span className="clgname">Dr. Babasaheb Ambedkar Marathwada University Aurangabad</span> </h6>
                     <p className="clgname">2021-2023</p>
                     <p>MCA from University Department of managemment Science</p>
@@ -19,9 +21,9 @@ const Education = () => {
                     <p>With<span className="clgname"> 73.85%</span> </p>
                 </div>
             </div>
-            <div className='soft'>
-                <h3 className=' mb-3 educolor'>Work Experience <FontAwesomeIcon icon={faLaptopCode} /></h3>
-                <div className='education'>
+            <div className='col-xl-6 col-md-6 col-sm-12 mt-2 soft'>
+                <h3 className=' educolor'>Work Experience <FontAwesomeIcon icon={faLaptopCode} /></h3>
+                <div className='education pb-3'>
                     <h6> <span className="clgname">Web Development</span> in <span className="clgname">KSJ Technology Pvt. Pune</span></h6>
                     {/* <p className="clgname">2023 (6-Month)</p> */}
                     <p>• Create a Ecommerce Website Using <span className="clgname">HTML,CSS,JavaScript And React.js</span></p>
@@ -30,8 +32,12 @@ const Education = () => {
                     <p>• Design <span className="clgname">User Friedly and Mobile Design</span> Websites </p>
                     <p>•  Identify and resolve issues in  <span className="clgname">functionality, layout, and performance</span></p>
                     <p>• Ensure adaptability<span className="clgname">across diverse screen sizes and devices.</span></p>
+                    <p>• Ensure adaptability<span className="clgname">across diverse screen sizes and devices.</span></p>
+                    {/* <p>• Ensure adaptability<span className="clgname">across diverse screen sizes and devices.</span></p> */}
+                   
                 </div>
             </div>
+           </div>
         </div>
     );
 }

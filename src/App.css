@@ -13,7 +13,7 @@
   font-size: 35px;
 }
 .navcolor {
-  color: aqua;
+  color: black;
 }
 .hero {
   width: 100%;
@@ -37,7 +37,7 @@
   animation-fill-mode: none;
 }
 .nav-button {
-  color: aqua;
+  color: black;
   text-decoration: none;
 }
 .nav-button:after {
@@ -113,19 +113,19 @@
 }
 .aboutme {
   padding-top: 35px;
-  padding-left: 7px;
+  /* padding-left: 7px; */
   color: rgb(48, 48, 60);
-  width: 55%;
+  /* width: 55%; */
   flex-wrap: wrap;
 }
 .aboutme span {
   color: aqua;
 }
-.laptopimage {
+/* .laptopimage {
   background-repeat: no-repeat;
-  height: 65vh;
+  height: 55vh;
   width: 100%;
-}
+} */
 .skill {
   justify-content: center;
   display: flex;
@@ -179,28 +179,77 @@
   box-shadow: 0px 10px 10px rgb(136, 136, 224);
   color: black;
 }
-.technical {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  color: white;
+  /* .technical {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  } */
+
+@keyframes skill {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(150px);
+  }
+
+}
+.skill-animation {
+  animation-name:skill;
+  animation-duration: 2s;
+  animation-timing-function: infinite;
+  /* animation-delay: 0s; */
+  /* animation-iteration-count: 1; */
+  animation-direction: alternate;
+  /* animation-fill-mode: none; */
+  animation-iteration-count: infinite;
+}
+.skills-image{
+  height: 100px;
+  width: 100px;
+}
+/* .skill-two{
+  height: 200px;
+  width: 200px;
+} */
+
+
+@keyframes skill-two {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-150px);
+  }
+
+}
+.skill-animation-two {
+  animation-name:skill-two;
+  animation-duration: 2s;
+  animation-timing-function: infinite;
+  /* animation-delay: 0s; */
+  /* animation-iteration-count: 1; */
+  animation-direction: alternate;
+  /* animation-fill-mode: none; */
+  animation-iteration-count: infinite;
 }
 .techskills {
-  width: 400px;
-  margin: 0;
+  /* width: 400px; */
+
 }
 .techskill {
-  width: 500px;
+  /* width: 500px; */
 }
 .educolor {
   color: #03C988;
 }
 .tech {
-  margin: 5px;
-  word-wrap: break-word;
+  /* margin: 5px; */
+  /* word-wrap: break-word; */
 }
 .soft {
-  margin: 5px;
+  /* margin: 5px; */
   word-wrap: break-word;
 }
 .workexp {
@@ -208,14 +257,14 @@
 }
 .education {
   word-wrap: break-word;
-  padding: 8px 8px;
+  padding: 5px 8px;
   /* padding-left: 8px; */
   line-height: 1;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
   border: solid 0.6px rgb(35, 32, 32);
   color: black;
   border-radius: 3px;
-  width: 100%;
+  /* width: 100%;s */
 }
 .clgname {
   color: #59e4b5;
@@ -226,15 +275,16 @@
   color: transparent;
 }
 .profession {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin-bottom: 23px;
+  margin-bottom: 23px; */
   color: black;
 }
 .softskill {
-  display: flex;
-  justify-content: space-between;
-  width: 450px
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* width: 450px */
+  flex-direction: column;
 }
 .percentage {
   display: flex;
@@ -267,7 +317,26 @@
   font-size: 25px;
   color: black;
 }
-/* **********************Project-six************************* */
+
+
+
+::-webkit-scrollbar{
+  background: blue;
+  width: 5px;
+  /* height: 20px; */
+}
+::-webkit-scrollbar-track{
+  background: white;
+}
+
+::-webkit-scrollbar-thumb{
+  background:#09eed3;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #03C988;
+}
+/* **********************Project-Section************************* */
 .project {
   width: 100%;
   margin-bottom: 2rem;
@@ -276,8 +345,6 @@
   color: aqua;
 }
 .project-list {
-  /* height: 400px;
-  width: 28vw; */
   padding: 10px;
   border-radius: 5px;
   background-color: #D9AFD9;
@@ -290,8 +357,6 @@
   color: black;
 }
 .project-image {
-  /* height: 300px;
-  width: 100%; */
   border-radius: 5px;
 }
 .project-title {
@@ -307,17 +372,11 @@
 .sectionfive {
   flex-wrap: wrap-reverse;
 }
-.sectionsix {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.sectionsix span {
+
+/* ********Footer********* */
+
+.footer span {
   color: aqua;
-}
-.address {
-  color: black;
 }
 .icon {
   border: 1.7px solid #03C988;

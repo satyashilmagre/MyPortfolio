@@ -36,7 +36,7 @@ const Projects = () => {
                         <div className='d-flex justify-content-between m-2 project-title'>
                             <div>
                                 <h6>Xioami UI Clone</h6>
-                                <a className='link' href='https://github.com/satyashilmagre'>Project Link</a>
+                                <a className='link' href='https://xioamiuiclone.netlify.app/'>Project Link</a>
                                 <div className='d-flex mt-2'>
                                     <p>Techology Used : </p>
                                     <div className='ms-1'>
@@ -57,7 +57,7 @@ const Projects = () => {
                         <div className='d-flex justify-content-between m-2 project-title'>
                             <div>
                                 <h6>Angry Birds Website UI Clone</h6>
-                                <a className='link' target="blank" href='https://angrybirdclone.netlify.app/'>Project Link</a>
+                                <a className='link'  href='https://angrybirdclone.netlify.app/'>Project Link</a>
                                 <div className='d-flex mt-2'>
                                     <p>Techology Used : </p>
                                     <div className='ms-1'>
@@ -78,7 +78,8 @@ const Projects = () => {
                         <div className='d-flex justify-content-between m-2 project-title'>
                             <div>
                                 <h6>Angry Birds Website UI Clone</h6>
-                                <a className='link' target="blank" href='https://angrybirdclone.netlify.app/'>Project Link</a>
+                                <a className='link' href='https://angrybirdclone.netlify.app/'>Project Link</a>
+                                {/*  target="blank" "open the New Tab" */}
                                 <div className='d-flex mt-2'>
                                     <p>Techology Used : </p>
                                     <div className='ms-1'>

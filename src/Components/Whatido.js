@@ -25,7 +25,7 @@ const Whatido = () => {
                 <FontAwesomeIcon icon={faAppStoreIos} size='2xl' style={{ color: "#850cb0", }} />
                 <h3>App Development</h3>
                 <p>2019-2023</p>
-                <p>Mobile application development is the process of making software for smartphones, tablets and digital assistants, most commonly for the Android and iOS operating systems.The programming and markup languages used for this kind of software development include Java, React-Native, Swift, C# and HTML5.</p>
+                <p>Mobile application development is the process of making software for smartphones, tablets and digital assistants, most commonly for the Android and iOS operating systems.The programming and markup languages used for this kind of software development include Java, React-Native, Flutter and HTML5.</p>
             </div>
         </div>
     </div>
